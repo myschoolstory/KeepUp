@@ -51,7 +51,7 @@ export default function App() {
         }));
         setNews(newsData);
       } catch (error) {
-        console.error('Error fetching the news:', error);
+        console.error('Error fetching the news...:', error);
       }
     };
 
